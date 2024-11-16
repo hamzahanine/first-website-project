@@ -46,7 +46,7 @@ setSelectedPage
                     />
                     </div>
                     <div className={`${flexbetween} gap-8 ` }>
-                    <p>Sign In </p>
+                    
                     <ActionButton setSelectedPage={setSelectedPage}>Become a member</ActionButton>
                     </div> 
                    

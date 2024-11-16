@@ -22,6 +22,7 @@ const shopes: Array<ShopType> = [
     category: 'hoodie',
     },
     
+    
    
               ];
 
@@ -48,6 +49,7 @@ const ShopOnline = ({setSelectedPage}: Props) => {
       >
         <div className="md:w-3/5"> 
           <HText>OUR PRODUCTS</HText>
+          <p className="text-primary-500">click on one of the images to by Tshirts or hoodies</p>
           <p className="py-5">
           Discover the latest in fashion with our curated collection. 
           Each piece is crafted with precision, offering unparalleled comfort and style.
@@ -58,7 +60,7 @@ const ShopOnline = ({setSelectedPage}: Props) => {
         </div>
       </motion.div>
         <div className="mt-10 h-[353px] w-full overflow-x-auto overflow-y-hidden">
-          <ul className="w-[1500px] whitespace-nowrap">
+          <ul className="w-[1100px] whitespace-nowrap ">
             {shopes.map((item: ShopType ,index) =>(
               <Shope
               key={`${item.name}-${index}`}

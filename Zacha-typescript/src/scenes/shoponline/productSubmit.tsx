@@ -103,7 +103,7 @@ const ProductSubmit = () => {
             Submit Product Information
           </h2>
           <p className="my-5">
-            Add your address, a description, and any customization notes. Submit your information, and we will process your request.
+            Add your address, and any customization notes.please in the description enter your name and email Submit your information, and we will process your request.
           </p>
         </motion.div>
 

@@ -21,7 +21,10 @@ const shope = ({id,name, description, image}: Props) => {
             <p className="text-2xl">{name}</p>
             <p className="mt-5">{description}</p>
         </div>
-            <img alt={`${image}`} src={image} />
+            <img alt={`${image}`} 
+            src={image} 
+            className="h-full w-full object-cover rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300"
+            />
       </Link>
     </li>
   );

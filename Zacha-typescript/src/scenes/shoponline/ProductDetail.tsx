@@ -51,6 +51,8 @@ const products = [
     price: "300 MAD",
     category: "hoodie",
   },
+ 
+
 ];
 
 const ProductDetail = () => {
@@ -95,7 +97,7 @@ const ProductDetail = () => {
                 onClick={() => navigate(`/product-submit/${product.name}`)} // Pass the specific product's ID
                 className="bg-primary-500 text-white py-2 px-4 rounded-lg hover:bg-secondary-500 transition duration-200"
               >
-                Submit Product Info
+                buy this product
               </button>
             </div>
           ))}

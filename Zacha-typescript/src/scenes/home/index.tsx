@@ -83,7 +83,7 @@ const Home = ({ setSelectedPage }: Props) => {
             }}
           >
             <ActionButton setSelectedPage={setSelectedPage}>
-              By Now
+              Buy Now
             </ActionButton>
             
             <AnchorLink
