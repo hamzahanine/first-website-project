@@ -68,7 +68,6 @@ const ProductSubmit = () => {
 
   const {
     register,
-    handleSubmit,
     trigger,
     formState: { errors },
   } = useForm();
