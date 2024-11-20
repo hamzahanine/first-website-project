@@ -85,7 +85,7 @@ const ProductSubmit = () => {
   }
 
   return (
-    <section id="product-submit" className="mx-auto w-6/6 pt-24 pb-32 bg-black text-white">
+    <section id="product-submit" className="mx-auto w-6/6 pt-24 pb-32  bg-product-detail text-white">
       <motion.div>
         {/* HEADER */}
         <motion.div

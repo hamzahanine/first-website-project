@@ -8,6 +8,7 @@ import test from "@/assets/test.mp4";
 import Instagrame from"@/assets/instagram-logo.png";
 import Tiktok from"@/assets/téléchargement.png";
 import { motion } from 'framer-motion';
+import { FaInstagram, FaTiktok } from "react-icons/fa";
 
 
 
@@ -120,17 +121,21 @@ const Home = ({ setSelectedPage }: Props) => {
       {isAboveMediumScreens && (
         <div className="h-[80px] w-full bg-black py-1">
           <div className="mx-auto w-4/6">
-            <div className="flex w-3/5 justify-items-center">
+            <div className="flex w-3/5 justify-items-center gap-40">
               
-              <a href="https://www.instagram.com/zacha_7/" target="_blank" rel="noopener noreferrer">
-                                <img src={Instagrame} alt="Instagram" 
-                                    style={{ maxWidth: '40%', height: '20%' }}/>
+              <a href="https://www.instagram.com/zacha_7/"
+                 target="_blank" 
+                 rel="noopener noreferrer"
+                 className="flex items-center justify-center w-12 h-12 rounded-full bg-black hover:bg-gray-700 transition duration-300">
+                                <FaInstagram className="text-white text-2xl" />
                                     
 
                             </a>
-                            <a href="https://www.tiktok.com/@zacha_7?_t=8mJTZacVP65&_r=1" target="_blank" rel="noopener noreferrer">
-                                <img src={Tiktok} alt="Tiktok" 
-                                    style={{ maxWidth: '40%', height: '20%' }}/>
+                            <a href="https://www.tiktok.com/@zacha_7?_t=8mJTZacVP65&_r=1" 
+                               target="_blank" 
+                               rel="noopener noreferrer"
+                               className="flex items-center justify-center w-12 h-12 rounded-full bg-black  hover:bg-gray-700 transition duration-300">
+                            <FaTiktok className="text-white text-2xl" />
                                     
 
                             </a>

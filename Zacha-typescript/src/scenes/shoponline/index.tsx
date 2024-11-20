@@ -1,5 +1,6 @@
 import { SelectedPage,ShopType } from "@/shared/types";
-import image1 from "@/assets/image-1.jpeg"
+import image1 from "@/assets/tshirts.jpg"
+import image2 from "@/assets/hoodies.png"
 import { motion } from "framer-motion";
 import HText from "@/shared/HText";
 import Shope from "./shope";
@@ -18,7 +19,7 @@ const shopes: Array<ShopType> = [
     id: '2',
     name:"ZACHA HOODIES",
     description:"Experience ultimate comfort and style with our new hoodies.Stay warm with a touch of fashion, available now!  FOR JUST 300MAD",
-    image: image1,
+    image: image2,
     category: 'hoodie',
     },
     
