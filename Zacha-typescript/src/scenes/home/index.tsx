@@ -5,8 +5,7 @@ import { SelectedPage } from "@/shared/types";
 import ZackaText from "@/assets/ZackaText.png";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 import test from "@/assets/test.mp4";
-import Instagrame from"@/assets/instagram-logo.png";
-import Tiktok from"@/assets/téléchargement.png";
+
 import { motion } from 'framer-motion';
 import { FaInstagram, FaTiktok } from "react-icons/fa";
 
